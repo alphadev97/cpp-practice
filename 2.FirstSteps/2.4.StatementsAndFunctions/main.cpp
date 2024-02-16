@@ -5,6 +5,11 @@ int addNumbers (int first_param, int second_param) {
     return result;
 }
 
+int multiNumber (int first_param, int second_param) {
+    int result = first_param * second_param;
+    return result;
+}
+
 int main() {
 
     int first_number {31}; // Statement
@@ -23,6 +28,8 @@ int main() {
     std::cout << "Function Sum 2 : " << sum << std::endl; 
 
     std::cout << "Direct Sum : " << addNumbers(100, 25) << std::endl;
+
+    std::cout << "Multiply Function : " << multiNumber(10,5) << std::endl;
     
     return 0; 
 }
